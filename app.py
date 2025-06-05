@@ -19,7 +19,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Path ke model hasil training
 MODEL_PATH = "runs/detect/YOLOv8s/weights/best.pt"
 if not os.path.exists(MODEL_PATH):
     MODEL_PATH = "yolov8s.pt"
