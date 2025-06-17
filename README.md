@@ -1,10 +1,10 @@
 # Vehicle Detection Web
 
 ## Backend (FastAPI)
-1. Install dependencies: pip install -r requirements.txt
-2. Jalankan backend: python -m uvicorn app:app --reload
-3. Pastikan model YOLO sudah ada di workspace project. Disini dalam bentuk .pt
+1. Install the dependencies: pip install -r requirements.txt
+2. Install the dependencies: pip install -r requirements.txt
+3. Make sure the YOLO model is available in the project workspace, in .pt format.
 
 ## Frontend (HTML)
-- Buka file `index.html` di browser.
-- Upload gambar/video, klik "Start Detection", hasil akan muncul di bawahnya.
+- Open the index.html file in a browser.
+- Upload an image/video, click "Start Detection", and the results will appear below.
